@@ -1,0 +1,215 @@
+<sdf version='1.9'>
+  <world name='amphibot_world'>
+
+    <!-- Physics and Lighting -->
+    <gravity>0 0 -9.8</gravity>
+    <magnetic_field>6e-06 2.3e-05 -4.2e-05</magnetic_field>
+    <atmosphere type='adiabatic'/>
+    <physics type='ode'>
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <real_time_update_rate>1000</real_time_update_rate>
+    </physics>
+    <scene>
+      <ambient>0.4 0.4 0.4 1</ambient>
+      <background>0.7 0.7 0.7 1</background>
+      <shadows>true</shadows>
+    </scene>
+
+    <!-- Flat Ground -->
+    <model name='flat_ground'>
+      <static>true</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry>
+            <box><size>50 50 0.1</size></box>
+          </geometry>
+          <surface><friction><ode><mu>1</mu><mu2>1</mu2></ode></friction></surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <box><size>50 50 0.1</size></box>
+          </geometry>
+          <material>
+            <ambient>0.7 0.7 0.7 1</ambient>
+            <diffuse>0.85 0.85 0.85 1</diffuse>
+          </material>
+        </visual>
+        <pose>0 0 -0.05 0 0 0</pose>
+      </link>
+    </model>
+
+    <!-- Water Patch (right side) -->
+    <model name='water_patch'>
+      <static>true</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry><box><size>10 10 0.1</size></box></geometry>
+          <surface><friction><ode><mu>0.01</mu><mu2>0.01</mu2></ode></friction></surface>
+        </collision>
+        <visual name='visual'>
+          <geometry><box><size>10 10 0.1</size></box></geometry>
+          <material>
+            <ambient>0 0 0.5 0.6</ambient>
+            <diffuse>0 0 1 0.6</diffuse>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Water</name>
+            </script>
+          </material>
+        </visual>
+        <pose>10 0 0 0 0 0</pose>
+      </link>
+    </model>
+
+    <!-- Mud Patch (up side) -->
+    <model name='mud_patch'>
+      <static>true</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry><box><size>10 10 0.05</size></box></geometry>
+          <surface>
+            <friction><ode><mu>0.35</mu><mu2>0.35</mu2></ode></friction>
+            <contact><ode><soft_cfm>0.01</soft_cfm><soft_erp>0.2</soft_erp></ode></contact>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry><box><size>10 10 0.05</size></box></geometry>
+          <material>
+            <ambient>0.3 0.2 0.1 1</ambient>
+            <diffuse>0.4 0.25 0.1 1</diffuse>
+          </material>
+        </visual>
+        <pose>0 5 0 0 0 0</pose>
+      </link>
+    </model>
+
+    <!-- Sand Patch (top-right corner) -->
+    <model name='sand_patch'>
+      <static>true</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry><box><size>10 10 0.05</size></box></geometry>
+          <surface><friction><ode><mu>0.2</mu><mu2>0.2</mu2></ode></friction></surface>
+        </collision>
+        <visual name='visual'>
+          <geometry><box><size>10 10 0.05</size></box></geometry>
+          <material>
+            <ambient>0.8 0.75 0.4 1</ambient>
+            <diffuse>0.9 0.85 0.5 1</diffuse>
+          </material>
+        </visual>
+        <pose>10 10 0 0 0 0</pose>
+      </link>
+    </model>
+
+    <!-- Scaled Rocks -->
+    <model name='rock1'>
+      <static>true</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry><sphere><radius>0.5</radius></sphere></geometry>
+          <surface><friction><ode><mu>0.9</mu><mu2>0.9</mu2></ode></friction></surface>
+        </collision>
+        <visual name='visual'>
+          <geometry><sphere><radius>0.5</radius></sphere></geometry>
+          <material>
+            <ambient>0.6 0 0 1</ambient>
+            <diffuse>1 0 0 1</diffuse>
+          </material>
+        </visual>
+        <pose>5 10 0.2 0 0 0</pose>
+      </link>
+    </model>
+
+    <model name='rock2'>
+      <static>true</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry><sphere><radius>0.7</radius></sphere></geometry>
+          <surface><friction><ode><mu>0.9</mu><mu2>0.9</mu2></ode></friction></surface>
+        </collision>
+        <visual name='visual'>
+          <geometry><sphere><radius>0.7</radius></sphere></geometry>
+          <material>
+            <ambient>0.3 0.1 0.05 1</ambient>
+            <diffuse>0.5 0.2 0.1 1</diffuse>
+          </material>
+        </visual>
+        <pose>14 14 0.3 0 0 0</pose>
+      </link>
+    </model>
+
+    <model name='rock3'>
+      <static>true</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry><sphere><radius>0.4</radius></sphere></geometry>
+          <surface><friction><ode><mu>0.9</mu><mu2>0.9</mu2></ode></friction></surface>
+        </collision>
+        <visual name='visual'>
+          <geometry><sphere><radius>0.4</radius></sphere></geometry>
+          <material>
+            <ambient>0.3 0.1 0.05 1</ambient>
+            <diffuse>0.5 0.2 0.1 1</diffuse>
+          </material>
+        </visual>
+        <pose>-3 1 0.2 0 0 0</pose>
+      </link>
+    </model>
+
+    <!-- Multiple Pine Trees scattered -->
+    <include>
+      <name>pine_tree_1</name>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Pine Tree</uri>
+      <pose>-4 9 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <name>pine_tree_2</name>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Pine Tree</uri>
+      <pose>7 15 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <name>pine_tree_3</name>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Pine Tree</uri>
+      <pose>15 9 0 0 0 0</pose>
+    </include>
+
+    <include>
+        <name>pine_tree_4</name>
+        <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Pine Tree</uri>
+        <pose>-7 2 0 0 0 0</pose>
+    </include>
+
+    <include>
+        <name>pine_tree_5</name>
+        <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Pine Tree</uri>
+        <pose>4 0 0 0 0 0</pose>
+    </include>
+
+    <!-- Directional Light -->
+    <light name='sun' type='directional'>
+      <pose>0 0 10 0 -0 0</pose>
+      <cast_shadows>true</cast_shadows>
+      <intensity>1</intensity>
+      <direction>-0.5 0.5 -1</direction>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <linear>0.01</linear>
+        <constant>0.9</constant>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <spot>
+        <inner_angle>0</inner_angle>
+        <outer_angle>0</outer_angle>
+        <falloff>0</falloff>
+      </spot>
+    </light>
+
+  </world>
+</sdf>
+
