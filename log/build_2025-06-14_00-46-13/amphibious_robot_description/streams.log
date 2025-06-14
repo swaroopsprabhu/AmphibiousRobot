@@ -1,0 +1,44 @@
+[0.023s] Invoking command in '/home/swaroop/ws/AmphibiousRobot/build/amphibious_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/swaroop/ws/AmphibiousRobot/src/amphibious_robot_description -DCMAKE_INSTALL_PREFIX=/home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description
+[0.215s] -- The C compiler identification is GNU 11.4.0
+[0.364s] -- The CXX compiler identification is GNU 11.4.0
+[0.385s] -- Detecting C compiler ABI info
+[0.533s] -- Detecting C compiler ABI info - done
+[0.552s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.554s] -- Detecting C compile features
+[0.555s] -- Detecting C compile features - done
+[0.562s] -- Detecting CXX compiler ABI info
+[0.747s] -- Detecting CXX compiler ABI info - done
+[0.762s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.762s] -- Detecting CXX compile features
+[0.763s] -- Detecting CXX compile features - done
+[0.769s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.552s] -- Found Python3: /home/swaroop/.pyenv/shims/python3 (found version "3.10.12") found components: Interpreter 
+[1.830s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.082s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.083s] -- Added test 'lint_cmake' to check CMake code style
+[2.085s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.088s] -- Added test 'xmllint' to check XML markup files
+[2.092s] -- Configuring done
+[2.100s] -- Generating done
+[2.105s] -- Build files have been written to: /home/swaroop/ws/AmphibiousRobot/build/amphibious_robot_description
+[2.115s] Invoked command in '/home/swaroop/ws/AmphibiousRobot/build/amphibious_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/swaroop/ws/AmphibiousRobot/src/amphibious_robot_description -DCMAKE_INSTALL_PREFIX=/home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description
+[2.120s] Invoking command in '/home/swaroop/ws/AmphibiousRobot/build/amphibious_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/swaroop/ws/AmphibiousRobot/build/amphibious_robot_description -- -j4 -l4
+[2.212s] Invoked command in '/home/swaroop/ws/AmphibiousRobot/build/amphibious_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/swaroop/ws/AmphibiousRobot/build/amphibious_robot_description -- -j4 -l4
+[2.232s] Invoking command in '/home/swaroop/ws/AmphibiousRobot/build/amphibious_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/swaroop/ws/AmphibiousRobot/build/amphibious_robot_description
+[2.249s] -- Install configuration: ""
+[2.250s] -- Installing: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/ament_index/resource_index/package_run_dependencies/amphibious_robot_description
+[2.252s] -- Installing: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/ament_index/resource_index/parent_prefix_path/amphibious_robot_description
+[2.253s] -- Installing: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/environment/ament_prefix_path.sh
+[2.253s] -- Installing: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/environment/ament_prefix_path.dsv
+[2.256s] -- Installing: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/environment/path.sh
+[2.257s] -- Installing: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/environment/path.dsv
+[2.257s] -- Installing: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/local_setup.bash
+[2.257s] -- Installing: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/local_setup.sh
+[2.257s] -- Installing: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/local_setup.zsh
+[2.257s] -- Installing: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/local_setup.dsv
+[2.258s] -- Installing: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/package.dsv
+[2.258s] -- Installing: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/ament_index/resource_index/packages/amphibious_robot_description
+[2.258s] -- Installing: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/cmake/amphibious_robot_descriptionConfig.cmake
+[2.258s] -- Installing: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/cmake/amphibious_robot_descriptionConfig-version.cmake
+[2.258s] -- Installing: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/package.xml
+[2.262s] Invoked command in '/home/swaroop/ws/AmphibiousRobot/build/amphibious_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/swaroop/ws/AmphibiousRobot/build/amphibious_robot_description

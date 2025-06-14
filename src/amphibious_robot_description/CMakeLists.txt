@@ -22,5 +22,24 @@ if(BUILD_TESTING)
   set(ament_cmake_cpplint_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
 endif()
+# Install launch files and RViz config
+install(DIRECTORY launch
+  DESTINATION share/${PROJECT_NAME}
+  PATTERN "*.launch.py"
+  PATTERN "*.rviz"
+  )
 
+# You might also have other install directives, e.g., for description/meshes/worlds
+# For description:
+install(DIRECTORY description
+  DESTINATION share/${PROJECT_NAME}
+  )
+# For meshes:
+install(DIRECTORY meshes
+  DESTINATION share/${PROJECT_NAME}
+  )
+# For worlds:
+install(DIRECTORY worlds
+  DESTINATION share/${PROJECT_NAME}
+  )
 ament_package()

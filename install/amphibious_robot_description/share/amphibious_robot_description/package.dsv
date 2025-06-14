@@ -1,0 +1,8 @@
+source;share/amphibious_robot_description/hook/cmake_prefix_path.ps1
+source;share/amphibious_robot_description/hook/cmake_prefix_path.dsv
+source;share/amphibious_robot_description/hook/cmake_prefix_path.sh
+source;share/amphibious_robot_description/local_setup.bash
+source;share/amphibious_robot_description/local_setup.dsv
+source;share/amphibious_robot_description/local_setup.ps1
+source;share/amphibious_robot_description/local_setup.sh
+source;share/amphibious_robot_description/local_setup.zsh
