@@ -1,0 +1,2 @@
+Invoking command in '/home/swaroop/ws/AmphibiousRobot/build/amphibious_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/swaroop/ws/AmphibiousRobot/build/amphibious_robot_description -- -j4 -l4
+Invoked command in '/home/swaroop/ws/AmphibiousRobot/build/amphibious_robot_description' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/swaroop/ws/AmphibiousRobot/build/amphibious_robot_description -- -j4 -l4

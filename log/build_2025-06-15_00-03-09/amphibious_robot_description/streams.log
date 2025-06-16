@@ -1,0 +1,23 @@
+[0.014s] Invoking command in '/home/swaroop/ws/AmphibiousRobot/build/amphibious_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/swaroop/ws/AmphibiousRobot/build/amphibious_robot_description -- -j4 -l4
+[0.076s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.383s] [31mCMake Error at CMakeLists.txt:15 (find_package):
+[0.383s]   By not providing "Findament_lint_auto.cmake" in CMAKE_MODULE_PATH this
+[0.383s]   project has asked CMake to find a package configuration file provided by
+[0.384s]   "ament_lint_auto", but CMake did not find one.
+[0.384s] 
+[0.384s]   Could not find a package configuration file provided by "ament_lint_auto"
+[0.384s]   with any of the following names:
+[0.384s] 
+[0.384s]     ament_lint_autoConfig.cmake
+[0.384s]     ament_lint_auto-config.cmake
+[0.384s] 
+[0.384s]   Add the installation prefix of "ament_lint_auto" to CMAKE_PREFIX_PATH or
+[0.385s]   set "ament_lint_auto_DIR" to a directory containing one of the above files.
+[0.385s]   If "ament_lint_auto" provides a separate development package or SDK, be
+[0.385s]   sure it has been installed.
+[0.385s] 
+[0.385s] [0m
+[0.385s] -- Configuring incomplete, errors occurred!
+[0.385s] See also "/home/swaroop/ws/AmphibiousRobot/build/amphibious_robot_description/CMakeFiles/CMakeOutput.log".
+[0.387s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.391s] Invoked command in '/home/swaroop/ws/AmphibiousRobot/build/amphibious_robot_description' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/swaroop/ws/AmphibiousRobot/build/amphibious_robot_description -- -j4 -l4
