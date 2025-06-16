@@ -53,7 +53,7 @@
    </visual>
    <collision>
      <geometry>
-       <mesh filename="${mesh_path}/shaft.stl" scale="${scale_mm_to_m} ${scale_mm_to_m} ${scale_mm_to_m}"/>
+       <mesh filename="${mesh_path}/rshaft.stl" scale="${scale_mm_to_m} ${scale_mm_to_m} ${scale_mm_to_m}"/>
      </geometry>
      <material name="blue"/>
      <gazebo>
@@ -77,7 +77,7 @@
  <link name="lshaft_link">
    <visual>
      <geometry>
-       <mesh filename="${mesh_path}/shaft.stl" scale="${scale_mm_to_m} ${scale_mm_to_m} ${scale_mm_to_m}"/>
+       <mesh filename="${mesh_path}/lshaft.stl" scale="${scale_mm_to_m} ${scale_mm_to_m} ${scale_mm_to_m}"/>
      </geometry>
      <material name="blue"/>
    </visual>
@@ -138,7 +138,6 @@
  <!-- Right Wheel -->
  <link name="right_wheel_link">
    <visual>
-     <origin rpy="-1.5708 0 0"/>
      <geometry>
        <mesh filename="${mesh_path}/right_wheel.stl" scale="${scale_mm_to_m} ${scale_mm_to_m} ${scale_mm_to_m}"/>
      </geometry>
@@ -146,7 +145,6 @@
    </visual>
    <collision>
      <geometry>
-       <origin rpy="-1.5708 0 0"/>
        <mesh filename="${mesh_path}/right_wheel.stl" scale="${scale_mm_to_m} ${scale_mm_to_m} ${scale_mm_to_m}"/>
      </geometry>
      <material name="red"/>

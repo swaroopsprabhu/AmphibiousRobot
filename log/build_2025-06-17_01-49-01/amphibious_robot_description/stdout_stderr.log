@@ -1,0 +1,44 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/swaroop/ws/AmphibiousRobot/build/amphibious_robot_description
+-- Install configuration: ""
+-- Up-to-date: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/launch
+-- Installing: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/launch/sim_launch.py
+-- Up-to-date: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/launch/display.launch.py
+-- Up-to-date: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/description
+-- Up-to-date: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/description/amphibot.urdf.xacro
+-- Up-to-date: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/meshes
+-- Up-to-date: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/meshes/lshaft.stl
+-- Up-to-date: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/meshes/body.stl
+-- Up-to-date: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/meshes/left_wheel.stl
+-- Up-to-date: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/meshes/right_wheel.stl
+-- Up-to-date: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/meshes/rshaft.stl
+-- Up-to-date: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/worlds
+-- Up-to-date: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/worlds/world.sdf
+-- Up-to-date: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/meshes
+-- Up-to-date: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/meshes/lshaft.stl
+-- Up-to-date: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/meshes/body.stl
+-- Up-to-date: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/meshes/left_wheel.stl
+-- Up-to-date: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/meshes/right_wheel.stl
+-- Up-to-date: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/meshes/rshaft.stl
+-- Up-to-date: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/ament_index/resource_index/package_run_dependencies/amphibious_robot_description
+-- Installing: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/ament_index/resource_index/parent_prefix_path/amphibious_robot_description
+-- Up-to-date: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/environment/ament_prefix_path.sh
+-- Installing: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/environment/path.sh
+-- Installing: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/environment/path.dsv
+-- Up-to-date: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/local_setup.bash
+-- Up-to-date: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/local_setup.sh
+-- Up-to-date: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/local_setup.zsh
+-- Installing: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/local_setup.dsv
+-- Installing: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/package.dsv
+-- Up-to-date: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/ament_index/resource_index/packages/amphibious_robot_description
+-- Up-to-date: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/cmake/amphibious_robot_descriptionConfig.cmake
+-- Up-to-date: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/cmake/amphibious_robot_descriptionConfig-version.cmake
+-- Up-to-date: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/package.xml
