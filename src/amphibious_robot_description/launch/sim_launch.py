@@ -37,7 +37,7 @@ def generate_launch_description():
         Node(
             package='ros_gz_sim',
             executable='create',
-            arguments=['-name', 'amphibot', '-topic', 'robot_description', '-z', '0.1'],
+            arguments=['-name', 'amphibot', '-topic', 'robot_description', '-y', '-1', '-x', '-1', '-z', '0.22'],
             output='screen'
         )
     ])

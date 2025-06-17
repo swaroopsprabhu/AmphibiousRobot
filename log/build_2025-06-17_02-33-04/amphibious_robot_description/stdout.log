@@ -1,0 +1,14 @@
+-- Install configuration: ""
+-- Up-to-date: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/launch
+-- Up-to-date: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/launch/sim_launch.py
+-- Up-to-date: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/launch/rviz.launch.py
+-- Up-to-date: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/description
+-- Up-to-date: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/description/amphibot.urdf.xacro
+-- Up-to-date: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/meshes
+-- Up-to-date: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/meshes/lshaft.stl
+-- Up-to-date: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/meshes/body.stl
+-- Up-to-date: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/meshes/left_wheel.stl
+-- Up-to-date: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/meshes/right_wheel.stl
+-- Up-to-date: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/meshes/rshaft.stl
+-- Up-to-date: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/worlds
+-- Up-to-date: /home/swaroop/ws/AmphibiousRobot/install/amphibious_robot_description/share/amphibious_robot_description/worlds/world.sdf

@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:62 (file):
+  file INSTALL cannot find
+  "/home/swaroop/ws/AmphibiousRobot/src/amphibious_robot_description/urdf":
+  No such file or directory.
+
+[0m
