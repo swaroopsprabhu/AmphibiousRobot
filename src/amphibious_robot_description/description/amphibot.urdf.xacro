@@ -12,7 +12,7 @@
    </material>
 
  <!-- Robot-wide properties -->
- <xacro:property name="mesh_path" value="model://amphibious_robot_description/meshes"/>
+ <xacro:property name="mesh_path" value="package://amphibious_robot_description/meshes"/>
  <xacro:property name="scale_mm_to_m" value="0.001"/>
 
 
